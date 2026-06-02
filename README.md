@@ -11,7 +11,22 @@ This project implements a Convolutional Neural Network (CNN) using TensorFlow an
 - Image Size: 28×28 pixels
 - Grayscale Images
 
-## pre-requisite Used
+## Fashion MNIST Classes
+
+| Label | Category |
+|---------|---------|
+| 0 | T-shirt/Top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle Boot |
+
+## Technologies Used
 
 - Python
 - TensorFlow
@@ -50,11 +65,11 @@ Dense (10 Units, Softmax)
 Model achieved an overall classification accuracy of **91.10%** on the Fashion MNIST test dataset. 
 
 ### Key Performance Metrics
-* **Overall Accuracy:** 91.10%
-* **Macro Average F1-Score:** 0.91
-* **Weighted Average F1-Score:** 0.91
+* **Overall Accuracy:** 92.00%
+* **Macro Average F1-Score:** 0.92
+* **Weighted Average F1-Score:** 0.92
 
 ### Analysis & Observations
 * **Strongest Performers:** The model excelled at identifying **Class 1** (98% F1-score), **Class 5** (98% F1-score), and **Class 8** (98% F1-score).
-* **Weakest Performer:** **Class 6** showed the lowest performance with an F1-score of 77% and a recall of 79%, indicating the model frequently confuses 6s with other digits (likely 0s or 5s).
-* **Target Areas for Improvement:** Future iterations will focus on spatial features to better differentiate between Class 6, Class 4 (83% recall), and Class 2 (85% recall).
+* **Weakest Performer**: **Class 6** (Shirt) achieved the lowest F1-score of 76%, indicating that the model frequently confuses shirts with visually similar categories such as T-shirts, pullovers, or coats..
+* **Target Areas for Improvement:** Future iterations will focus on spatial features to better differentiate between Class 6, Class 4 (87% recall), and Class 2 (86% recall).

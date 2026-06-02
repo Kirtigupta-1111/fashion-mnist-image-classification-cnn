@@ -60,9 +60,13 @@ Dense (785 Units)
 
 Dense (10 Units, Softmax)
 
+### Visualizing the Errors
+Below is the generated confusion matrix highlighting where the model confuses shirts with pullovers and coats:
+![Confusion Matrix](confusion_matrix.png)
+
 ## Results
 
-Model achieved an overall classification accuracy of **91.10%** on the Fashion MNIST test dataset. 
+Model achieved an overall classification accuracy of **92.00%** on the Fashion MNIST test dataset. 
 
 ### Key Performance Metrics
 * **Overall Accuracy:** 92.00%

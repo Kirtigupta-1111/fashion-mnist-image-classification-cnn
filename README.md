@@ -47,7 +47,7 @@ Dense (10 Units, Softmax)
 
 ## Results
 
-Model achieved an overall classification accuracy of **91.10%** on the MNIST-10 test dataset. 
+Model achieved an overall classification accuracy of **91.10%** on the Fashion MNIST test dataset. 
 
 ### Key Performance Metrics
 * **Overall Accuracy:** 91.10%
